@@ -1,0 +1,15 @@
+body {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+summary {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #eee;
+  transition: background-color 0.3s; /* suaviza a troca de cor */
+}
+
+details[open] summary {
+  background-color: #cceccb;
+}

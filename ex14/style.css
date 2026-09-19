@@ -1,0 +1,14 @@
+body {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.equipe {
+  display: flex;
+  gap: 20px;
+}
+
+.membro {
+  text-align: center;
+  width: 200px;
+}

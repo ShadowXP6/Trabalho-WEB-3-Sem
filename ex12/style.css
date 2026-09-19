@@ -1,0 +1,29 @@
+body {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.foto {
+  display: inline-block;
+  position: relative;
+}
+
+.mini {
+  width: 150px;
+}
+
+.grande {
+  display: none; 
+  width: 400px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.foto:hover .mini {
+  display: none;
+}
+
+.foto:hover .grande {
+  display: block;
+}

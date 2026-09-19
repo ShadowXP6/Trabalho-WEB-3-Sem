@@ -1,0 +1,20 @@
+body {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+/* define os estados pelos quais o elemento passa durante a animação */
+@keyframes piscar {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
+.data {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+
+  /* nome da animação, duração, e "infinite" pra repetir sem parar */
+  animation: piscar 2s infinite;
+}

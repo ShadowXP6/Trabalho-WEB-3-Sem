@@ -1,0 +1,10 @@
+body {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  width: 200px;
+  padding: 15px;
+  box-sizing: border-box; /* o padding passa a caber DENTRO dos 200px */
+}

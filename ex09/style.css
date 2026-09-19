@@ -1,0 +1,14 @@
+body {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+/* quando o checkbox ANTES do label estiver marcado, risca o texto do label */
+input:checked + label {
+  text-decoration: line-through;
+}

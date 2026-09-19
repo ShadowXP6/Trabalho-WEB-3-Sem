@@ -1,0 +1,13 @@
+body {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+del {
+  color: gray; 
+}
+
+.preco-novo {
+  color: green; 
+  font-weight: bold;
+}

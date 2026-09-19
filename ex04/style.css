@@ -1,0 +1,13 @@
+body {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.posts {
+  list-style: square; 
+  padding-left: 20px;
+}
+
+.posts li {
+  margin-bottom: 20px;
+}

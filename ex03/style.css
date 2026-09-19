@@ -1,0 +1,24 @@
+body {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.539);
+}
+
+.item {
+  border: 1px solid #000000;
+  padding: 20px;
+  
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
