@@ -1,24 +1,47 @@
 body {
+  
   padding: 40px;
   font-family: Arial, sans-serif;
   text-align: center;
+  
+
+  background-image: 
+  url("img/portifolio.png");
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .grid {
+  
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
   gap: 10px;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.539);
+
 }
 
 .item {
+  
   border: 1px solid #000000;
   padding: 20px;
-  
+  background-color: rgb(251, 250, 250);
+   
 }
 
 a {
+
   text-decoration: none;
   color: black;
+
+}
+
+h1{
+
+  color: rgb(9, 9, 9);
+  font-size: 80px;
+
 }
