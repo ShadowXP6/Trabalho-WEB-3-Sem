@@ -1,14 +1,17 @@
 body {
-    min-height: 100vh;
+    min-height: 100vh;/*VH corresponde ao tamanho total da tela*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     background-image:
         
         linear-gradient(rgba(0, 0, 0, 0.348), rgba(0, 0, 0, 0.60)),
-        url("img/pessoa.png");
+        url("img/imagem-de-pg-web.jpg");
         
         background-size: cover; 
         background-position: center; 
-        background-repeat: no-repeat; 
+    
 
     #Texto{
         font-family: Arial, sans-serif;
