@@ -1,5 +1,6 @@
 body {
   
+  min-height: 100vh;
   padding: 40px;
   font-family: Arial, sans-serif;
   text-align: center;
@@ -11,6 +12,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  backdrop-filter: blur(10px);
 
 }
 

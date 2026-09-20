@@ -1,13 +1,35 @@
 body {
+  min-height: 100vh;
   padding: 40px;
   font-family: Arial, sans-serif;
+
+  background-image:url("img/trilha.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(20px);
+
 }
 
 .posts {
   list-style: square; 
   padding-left: 20px;
+  width: 400px;
+  padding: 40px 30px;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .posts li {
   margin-bottom: 20px;
+}
+
+.Titulo-Principal{
+
+  padding: 10px;
+  font-size: 65px;
+  color: white;
+
 }
